@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
+  "productName": "Electron - Hello World!",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . --out=dist --icon=icon.ico --overwrite"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
